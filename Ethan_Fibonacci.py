@@ -15,6 +15,8 @@ from tabulate import tabulate
 import cmath
 import matplotlib.pyplot as plt
 #==========================================
+#Variables 
+FibonacciArray=0
 
 #==========================================
 round_value=4
@@ -72,7 +74,12 @@ def sci(x):
     return return_string    
     
 #==========================================
-
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
 
 #Write data into table for No Ls
 mydata=[('round_value','{} '.format(sci(round_value))),

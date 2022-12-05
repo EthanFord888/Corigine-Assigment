@@ -1,4 +1,4 @@
-# Corigine
+# Corigine Fibonacci Problem
  
 Program used to find the index of the first term in the Fibonacci sequence to contain N digits.
 

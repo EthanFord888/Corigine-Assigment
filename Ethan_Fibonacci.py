@@ -13,8 +13,9 @@ type "pip install tabulate" in python terminal
 import numpy as np
 #==========================================
 #Variables 
-FibonacciArray=0
-
+F=[0,1,1]
+digits=1
+index = 2
 #==========================================
 #Determine number of digits
 def getDigits(x):
@@ -25,11 +26,17 @@ def getDigits(x):
      return count
 
 #==========================================
-
-
-
 n=int(input("Enter number:"))
-print("The number of digits in the number are:",getDigits(n))
+while (n!= digits):
+     F[0]=F[1]+F[2]
+     digits=getDigits(F[0])
+     index+=1
+
+     F[2]=F[1]
+     F[1]=F[0]
+     
+print("The number of digits in the number are:",index)
+
 
 
 

@@ -7,11 +7,11 @@ Enter "N" to find the index in the Fibonacci sequence
 ## Requirements
 - [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
 
-## Step 1: Build docker image
+## Step 1: Build image
 
 ` docker build -t fibonacci-term .`
 
-## Step 2: Run docker container 
+## Step 2: Start container 
 
 `docker run --rm -i -t fibonacci-term`
 

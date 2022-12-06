@@ -4,6 +4,9 @@ Program used to find the index of the first ter in the Fibonacci sequence to con
 
 Enter "N" to find the index in the Fibonacci sequence
 
+## Requirements
+- Docker Desktop
+
 ## Step 1: Build docker image
 
 ` docker build -t fibonacci-term `

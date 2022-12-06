@@ -16,6 +16,7 @@ import numpy as np
 F=[0,1,1]
 digits=1
 index = 2
+n=0
 #==========================================
 #Determine number of digits
 def getDigits(x):
@@ -26,7 +27,10 @@ def getDigits(x):
      return count
 
 #==========================================
-n=int(input("Enter number:"))
+
+#print("index")
+2
+n=int(input("Enter N: "))
 while (n!= digits):
      F[0]=F[1]+F[2]
      digits=getDigits(F[0])
@@ -35,7 +39,7 @@ while (n!= digits):
      F[2]=F[1]
      F[1]=F[0]
      
-print("The number of digits in the number are:",index)
+print(index)
 
 
 

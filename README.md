@@ -9,7 +9,7 @@ Enter "N" to find the index in the Fibonacci sequence
 
 ## Step 1: Build docker image
 
-` docker build -t fibonacci-term `
+` docker build -t fibonacci-term .`
 
 ## Step 2: Run docker container 
 
